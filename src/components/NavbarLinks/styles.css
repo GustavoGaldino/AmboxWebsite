@@ -1,0 +1,8 @@
+.navbar-links{
+    width: 100%;
+    display: flex;
+}
+
+.navbar-links a:hover{
+    text-decoration: none;
+}

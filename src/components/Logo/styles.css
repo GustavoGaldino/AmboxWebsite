@@ -1,0 +1,15 @@
+.ambox-logo{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-left: 1.2rem;
+}
+
+.logo-first-half{
+    color: var(--color-dark-blue);
+}
+
+.logo-second-half{
+    color: var(--color-light-blue)
+}

@@ -6,7 +6,7 @@ import unboxingImg from '../../assets/images/unboxing.png'
 
 function Landing(){
     return(
-        <div className="landing-div">
+        <div className="landing-div" id="seizetheday">
             <img src={unboxingImg} alt="" className="hero-img"/>
         </div>
     );

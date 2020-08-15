@@ -1,0 +1,50 @@
+.reviews-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-grey-lighter);
+    /*background-color: rgb(50,50,50);*/
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr 1fr 6fr 1fr 6fr 1fr;
+    grid-template-rows: 1.8fr 2fr 0.4fr 9fr 0.4fr 0.8fr;
+}
+
+.purple-line{
+    width: 16%;
+    background-color: var(--color-dark-blue);
+    height: 2px;
+}
+
+.reviews-title-div{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.reviews-title-div h2{
+    font-weight: 600;
+    color: var(--color-dark-blue);
+}
+
+.reviews-title-div h2{
+    font-size: 1.4rem;
+}
+
+.card{
+    background-color: red; /*var(--color-semi-white);*/
+    border-radius: 0%;
+}
+
+
+.first-card{
+    grid-row: 4/6;
+    grid-column: 2/4;
+}
+
+.second-card{
+    grid-column: 5/6;
+    grid-row: 3/5;
+}
+
+.third-card{
+    grid-column: 7/8;
+    grid-row: 4/6;
+}

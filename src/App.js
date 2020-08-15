@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import AmboxLogo from './components/Logo/index.jsx'
 import Landing from './components/Landing/index.jsx'
 import AboutUs from './components/About/index.jsx'
+import Reviews from './components/Reviews/index.jsx'
 
 import './assets/styles/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +25,7 @@ function App() {
       </Navbar>
       <Landing />
       <AboutUs />
-      
+      <Reviews />
     </div>
   );
 }

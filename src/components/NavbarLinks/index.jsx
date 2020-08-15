@@ -11,7 +11,7 @@ function NavbarLinks(){
             <CustomLink linkText="Planos" href="#plans"/>
             <CustomLink linkText="Avaliações" href="#reviews"/>
             <button className="login-btn" >
-                <a href="">
+                <a href="/login">
                     <span>Entrar  </span>
                 </a>
             </button>

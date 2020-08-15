@@ -4,7 +4,7 @@
     --color-light-grey: #F0F0F0;
     --color-grey: #00000029;
     --color-grey-lighter: #F5F6F6;
-
+    --color-semi-white: #FFFFFFD4;
 }
 
 @media(max-width: 1025px){

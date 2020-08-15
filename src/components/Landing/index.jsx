@@ -18,7 +18,7 @@ function Landing(){
                     e outras surpresas.
                 </h2>
                 <button className="plans-btn">
-                    <a href="">
+                    <a href="#plans">
                         <span>
                             Visualizar Planos
                             <img src={forwardIcon} alt="" className="forward-icon"/>

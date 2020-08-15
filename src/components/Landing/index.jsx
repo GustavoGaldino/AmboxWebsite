@@ -2,12 +2,30 @@ import React from 'react'
 
 import './styles.css'
 
-import unboxingImg from '../../assets/images/unboxing.png'
+import forwardIcon from '../../assets/images/icons/forward.png'
 
 function Landing(){
     return(
-        <div className="landing-div" id="seizetheday">
-            <img src={unboxingImg} alt="" className="hero-img"/>
+        <div className="landing-div" id="">
+            <div className="introduction-text">
+                <h2>
+                    Receba todo mês
+                    <br />
+                    na porta de sua casa
+                    <br />
+                    produtos não alcóolicos
+                    <br />
+                    e outras surpresas.
+                </h2>
+                <button className="plans-btn">
+                    <a href="">
+                        <span>
+                            Visualizar Planos
+                            <img src={forwardIcon} alt="" className="forward-icon"/>
+                        </span>
+                    </a>
+                </button>
+            </div>
         </div>
     );
 }

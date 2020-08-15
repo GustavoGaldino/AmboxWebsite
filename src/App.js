@@ -1,10 +1,11 @@
 import React from 'react';
-import Landing from './components/Landing/index.jsx'
-import NavbarLinks from './components/NavbarLinks/index.jsx'
 
+import NavbarLinks from './components/NavbarLinks/index.jsx'
 import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+
 import AmboxLogo from './components/Logo/index.jsx'
+import Landing from './components/Landing/index.jsx'
+import AboutUs from './components/About/index.jsx'
 
 import './assets/styles/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,7 +23,8 @@ function App() {
 
       </Navbar>
       <Landing />
-      <Landing />
+      <AboutUs />
+      
     </div>
   );
 }

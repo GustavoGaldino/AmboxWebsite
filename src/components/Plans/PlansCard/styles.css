@@ -28,12 +28,112 @@
 
 .price-div{
     width: 100%;
-    height: 30%;
+    height: 25%;
     display: grid;
-    margin: auto 0;
+    grid-template-columns: 0fr 1fr;
 }
 
-.plan-img{
-    width: 12%;
-    height: 40%;
+.monthly-payment{
+    margin: auto auto;
+    grid-column: 2/3;
+}
+
+.monthly-payment h1{
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 0.5rem;
+}
+
+.monthly-payment h2{
+    font-size: 0.8rem;
+}
+
+.plans-benefits{
+    height: 30%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.plans-benefits h1{
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+.first-benefit{
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-benefit{
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-benefit{
+    grid-row: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-assign-button-div{
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-assign-btn-transparent{
+    background-color: Transparent;
+    border: 1px solid var(--color-dark-blue);
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.plan-assign-btn-transparent a{
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+}
+
+.plan-assign-btn-transparent:hover{
+    transition: 0.4s;
+    background-color: var(--color-dark-blue);
+}
+
+.plan-assign-btn-transparent:hover a{
+    transition: 0.4s;
+    color: white;
+}
+
+.plan-assign-btn-transparent a:hover{
+    text-decoration: none;
+}
+
+.plan-assign-btn{
+    background-color: var(--color-dark-blue);
+    border: 1px solid var(--color-dark-blue);
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.plan-assign-btn a{
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.plan-assign-btn a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.forward-icon{
+    margin: 0 0 0 1rem;
 }

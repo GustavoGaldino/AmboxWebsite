@@ -19,15 +19,36 @@ function Plans(){
                 <PlansCard
                     plan="PRO"
                     img={amboxImg}
+                    monthly="50"
+                    firstBenefit="4 bebidas não alcóolicas"
+                    secondBenefit="4 bebidas não alcóolicas"
+                    thirdBenefit="4 bebidas não alcóolicas"
+                    btnClass="plan-assign-btn-transparent"
                 />
             </div>
 
             <div className="second-card">
-
+                <PlansCard
+                    plan="PRO"
+                    img={amboxImg}
+                    monthly="50"
+                    firstBenefit="4 bebidas não alcóolicas"
+                    secondBenefit="4 bebidas não alcóolicas"
+                    thirdBenefit="4 bebidas não alcóolicas"
+                    btnClass="plan-assign-btn"
+                />
             </div>
 
             <div className="third-card">
-
+                <PlansCard
+                    plan="PRO"
+                    img={amboxImg}
+                    monthly="50"
+                    firstBenefit="4 bebidas não alcóolicas"
+                    secondBenefit="4 bebidas não alcóolicas"
+                    thirdBenefit="4 bebidas não alcóolicas"
+                    btnClass="plan-assign-btn-transparent"
+                />
             </div>
                 
 

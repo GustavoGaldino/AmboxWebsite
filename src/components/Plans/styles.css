@@ -36,11 +36,9 @@
 .second-card{
     grid-column: 4/5;
     grid-row: 4/6;
-    background: blue;
 }
 
 .third-card{
     grid-column: 5/6;
     grid-row: 5/7;
-    background: pink;
 }

@@ -4,7 +4,7 @@
     background-color: var(--color-grey-lighter);
     /*background-color: rgb(50,50,50);*/
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr 1fr 6fr 1fr 6fr 1fr;
+    grid-template-columns: 1.4fr 4fr 2fr 1fr 6fr 1fr 6fr 1fr;
     grid-template-rows: 1.8fr 2fr 0.4fr 9fr 0.4fr 0.8fr;
 }
 
@@ -29,22 +29,23 @@
 }
 
 .card{
-    background-color: red; /*var(--color-semi-white);*/
-    border-radius: 0%;
+    background-color: cyan;
 }
 
-
-.first-card{
+.review-first-card{
     grid-row: 4/6;
     grid-column: 2/4;
+    background-color: var(--color-semi-white);
 }
 
-.second-card{
+.review-second-card{
     grid-column: 5/6;
     grid-row: 3/5;
+    background-color: var(--color-semi-white);
 }
 
-.third-card{
+.review-third-card{
     grid-column: 7/8;
     grid-row: 4/6;
+    background-color: var(--color-semi-white);
 }

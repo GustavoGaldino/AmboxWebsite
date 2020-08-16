@@ -13,27 +13,27 @@ function Reviews(){
         <div className="reviews-div" id="reviews">
             <div className="reviews-title-div">
                 <div className="purple-line">
-                    
+
                 </div>
                 <h2>
                     O QUE OS NOSSOS ASSINANTES FALAM DE NÓS
                 </h2>
             </div>
-            <div className="first-card card">
+            <div className="review-first-card">
                 <ReviewCard
                     username="Gustavo Galdino"
                     img={gustavoImg}
                     localization ="Recife - PE"
                 />
             </div>
-            <div className="second-card card">
+            <div className="review-second-card">
                 <ReviewCard
                     username="Letícia Prado"
                     img={letíciaImg}
                     localization ="Recife - PE"
                 />
             </div>
-            <div className="third-card card">
+            <div className="review-third-card">
                 <ReviewCard
                     username="Igor Lins"
                     img={igorImg}

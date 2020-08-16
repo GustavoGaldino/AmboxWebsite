@@ -7,6 +7,17 @@
     text-decoration: none;
 }
 
+.login-btn:hover {
+    transition: 0.4s;
+    background-clip: border-box;
+    background-color: var(--color-dark-blue);
+}
+
+.login-btn:hover span{
+    transition: 0.4s;
+    color: white;
+}
+
 .login-btn{
     margin: 0 2.8rem 0 0.8rem;
     background:#FFFFFF 0% 0% no-repeat padding-box;

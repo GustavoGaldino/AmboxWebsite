@@ -1,0 +1,33 @@
+.plans-div{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-grey-lighter);
+    grid-template-columns: 1fr 0.8fr 5fr 1fr 4fr 1fr 5fr 1.8fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 6fr 1fr 1fr;
+}
+
+.plans-title{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.plans-title h1{
+    color: var(--color-dark-blue);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.cards{
+    border-radius: 25%;
+}
+
+.first-card{
+    grid-column: 3/5;
+    grid-row:  5/7;
+}
+
+.second-card{
+    grid-column: 4/7;
+    grid-row: 4/6;
+}

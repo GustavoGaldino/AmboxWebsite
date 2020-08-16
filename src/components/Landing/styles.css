@@ -32,6 +32,17 @@
     opacity: 1;
 }
 
+.plans-btn:hover{
+    background-clip: border-box;
+    transition: 0.4s;
+    background-color: var(--color-dark-blue);
+}
+
+.plans-btn:hover span{
+    transition: 0.4s;
+    color: white;
+}
+
 .plans-btn a:hover{
     text-decoration: none;
 }

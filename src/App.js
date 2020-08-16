@@ -26,6 +26,7 @@ function App() {
       </Navbar>
       <Landing />
       <AboutUs />
+      <Plans />
       <Reviews />
     </div>
   );

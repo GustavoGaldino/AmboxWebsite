@@ -8,27 +8,45 @@ import Landing from './components/Landing/index.jsx'
 import AboutUs from './components/About/index.jsx'
 import Reviews from './components/Reviews/index.jsx'
 import Plans from './components/Plans/index.jsx'
+import Login from './components/Login/index.jsx'
 
 import './assets/styles/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <Navbar bg="light" fixed="top">
+    <Router>
+      <div className="App">
 
-        <Navbar.Brand>
-          <AmboxLogo />
-        </Navbar.Brand>
+        <Navbar bg="light" fixed="top">
 
-        <NavbarLinks />
+          <Navbar.Brand>
+            <AmboxLogo />
+          </Navbar.Brand>
 
-      </Navbar>
-      <Landing />
-      <AboutUs />
-      <Plans />
-      <Reviews />
-    </div>
+          <NavbarLinks onHomePage />
+        </Navbar>
+
+        <Switch>
+          <Route exact path='/'>
+            <Landing />
+            <AboutUs />
+            <Plans />
+            <Reviews />
+          </Route>
+
+          <Route exact path='/login'>
+            <Login />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -4,16 +4,21 @@ import CustomLink from './CustomLink'
 
 import './styles.css'
 
+import {
+    Link,
+} from "react-router-dom";
+
 function NavbarLinks(){
     return(
         <div className="navbar-links justify-content-end">
-            <CustomLink linkText="Sobre nós" href="#about-us"/>
-            <CustomLink linkText="Planos" href="#plans"/>
-            <CustomLink linkText="Avaliações" href="#reviews"/>
+            <CustomLink linkText="Sobre nós" hash="about-us"/>
+            <CustomLink linkText="Planos" hash="plans"/>
+            <CustomLink linkText="Avaliações" hash="reviews"/>
+
             <button className="login-btn" >
-                <a href="/login">
-                    <span>Entrar  </span>
-                </a>
+                <Link to="/login">
+                    <span>Entrar</span>
+                </Link>
             </button>
         </div>
     );

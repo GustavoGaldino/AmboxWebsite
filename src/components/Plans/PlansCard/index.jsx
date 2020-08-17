@@ -4,6 +4,8 @@ import './styles.css'
 
 import forwardIcon from '../../../assets/images/icons/forward.png'
 
+import {Link} from 'react-router-dom'
+
 function PlansCard(props){
     return(
         <div className="plans-card-div">
@@ -38,10 +40,10 @@ function PlansCard(props){
 
             <div className="plan-assign-button-div">
                 <button className={props.btnClass}>
-                    <a href="/AmboxWebsite/login">
+                    <Link to="/AmboxWebsite/login">
                         Assinar esse plano
                         <img className="forward-icon" src={forwardIcon} alt=""/>
-                    </a>
+                    </Link>
                 </button>
             </div>
 

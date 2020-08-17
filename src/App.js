@@ -30,7 +30,7 @@ function App() {
       <div className="App">
 
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/AmboxWebsite/'>
             <Navbar bg="light" fixed="top">
 
               <Navbar.Brand>
@@ -45,7 +45,7 @@ function App() {
             <Reviews />
           </Route>
 
-          <Route exact path='/login'>
+          <Route exact path='/AmboxWebsite/login'>
             <Navbar bg="light" fixed="top">
 
               <Navbar.Brand>
@@ -57,19 +57,19 @@ function App() {
             <Login />
           </Route>
 
-          <Route exact path='/logged'>
+          <Route exact path='/AmboxWebsite/logged'>
             <Logged />
           </Route>
 
-          <Route exact path='/register/first-view'>
+          <Route exact path='/AmboxWebsite/register/first-view'>
             <FirstView />
           </Route>
 
-          <Route exact path='/register/second-view'>
+          <Route exact path='/AmboxWebsite/register/second-view'>
             <SecondView />
           </Route>
 
-          <Route exact path='/register/third-view'>
+          <Route exact path='/AmboxWebsite/register/third-view'>
             <ThirdView />
           </Route>
 

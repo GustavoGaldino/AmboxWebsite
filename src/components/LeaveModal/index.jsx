@@ -35,7 +35,7 @@ export default function LeaveModal() {
                     </button>
                 </div>
                 <div class="second-modal-btn modal-btn">
-                    <Link to='/'>
+                    <Link to='/AmboxWebsite/'>
                         <button class="">
                             <span className="modal-btn-text">
                                 Sim

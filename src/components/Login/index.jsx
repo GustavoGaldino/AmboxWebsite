@@ -22,7 +22,7 @@ export default function Login(){
                 </div>
 
                 <div className="user-login-btn-div">
-                    <Link to="/logged">
+                    <Link to="/AmboxWebsite/logged">
                         <button className="user-login-btn">
                             <span>
                                 Entrar
@@ -33,7 +33,7 @@ export default function Login(){
 
                 <div className="register-div">
                     Ainda não é um membro?
-                    <Link to="/register/first-view" className="register">Cadastre-se</Link>
+                    <Link to="/AmboxWebsite/register/first-view" className="register">Cadastre-se</Link>
                 </div>
             </div>
         </div>

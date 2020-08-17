@@ -42,7 +42,7 @@ export default function ThirdView(){
                     </div>
 
                     <div className="reg-btn-div-tv">
-                        <Link to='/logged'>
+                        <Link to='/AmboxWebsite/logged'>
                             <button className="register-btn">
                                 <span>
                                     Adicionar

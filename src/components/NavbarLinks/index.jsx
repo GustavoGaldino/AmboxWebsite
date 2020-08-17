@@ -16,7 +16,7 @@ function NavbarLinks(){
             <CustomLink linkText="Avaliações" hash="reviews"/>
 
             <button className="login-btn" >
-                <Link to="/login">
+                <Link to="/AmboxWebsite/login">
                     <span>Entrar</span>
                 </Link>
             </button>

@@ -38,7 +38,7 @@ function PlansCard(props){
 
             <div className="plan-assign-button-div">
                 <button className={props.btnClass}>
-                    <a href="/login">
+                    <a href="/AmboxWebsite/login">
                         Assinar esse plano
                         <img className="forward-icon" src={forwardIcon} alt=""/>
                     </a>

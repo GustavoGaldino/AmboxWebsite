@@ -39,7 +39,7 @@ export default function SecondView(){
                     </div>
 
                     <div className="reg-btn-div">
-                        <Link to='/register/third-view'>
+                        <Link to='/AmboxWebsite/register/third-view'>
                             <button className="register-btn">
                                 <span>
                                     Adicionar

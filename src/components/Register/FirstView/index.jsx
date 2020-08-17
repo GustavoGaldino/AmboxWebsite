@@ -41,7 +41,7 @@ export default function FirstView(){
 
                     
                     <div className="reg-btn-div">
-                        <Link to='/register/second-view'>
+                        <Link to='/AmboxWebsite/register/second-view'>
                             <button className="register-btn">
                                 <span>
                                     Cadastrar

@@ -7,7 +7,7 @@ import './styles.css'
 function CustomLink(props) {
     return (
         <div className="custom-link-div">
-            <Link to={`/#${props.hash}`}>
+            <Link to={`/AmboxWebsite/#${props.hash}`}>
                 {props.linkText}
             </Link>
         </div>

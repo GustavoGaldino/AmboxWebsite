@@ -13,7 +13,6 @@ function Reviews(){
         <div className="reviews-div" id="reviews">
             <div className="reviews-title-div">
                 <div className="purple-line">
-
                 </div>
                 <h2>
                     O QUE OS NOSSOS ASSINANTES FALAM DE NÓS

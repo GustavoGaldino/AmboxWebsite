@@ -20,7 +20,7 @@
 }
 
 @media(min-width: 1600px){
-    :root{
+    :root{ 
         font-size: 120%;
     }
 }

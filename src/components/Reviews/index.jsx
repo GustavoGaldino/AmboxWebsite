@@ -24,6 +24,9 @@ function Reviews(){
                     username="Gustavo Galdino"
                     img={gustavoImg}
                     localization ="Recife - PE"
+                    commentFirstLine="A ambox é massa demais!"
+                    commentSecondLine="Sempre tem novidade dentro da caixinha!"
+                    commentThirdLine="Fico ansioso esperando a próxima enquanto indico para os meus amigos."
                 />
             </div>
             <div className="review-second-card">
@@ -31,6 +34,9 @@ function Reviews(){
                     username="Letícia Prado"
                     img={letíciaImg}
                     localization ="Recife - PE"
+                    commentFirstLine="Incrível!"
+                    commentSecondLine="Todo mês uma nova surpresa."
+                    commentThirdLine="Fico esperando minha ambox com muita ansiedade."
                 />
             </div>
             <div className="review-third-card">
@@ -38,6 +44,9 @@ function Reviews(){
                     username="Igor Lins"
                     img={igorImg}
                     localization ="Recife - PE"
+                    commentFirstLine="Sensacional!"
+                    commentSecondLine="Sempre me surpreendo com os mimos da ambox, espero que chegue logo a próxima caixinha, hahaha."
+                    commentThirdLine=""
                 />
             </div>
         </div>

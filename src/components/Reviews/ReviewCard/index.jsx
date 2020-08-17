@@ -27,11 +27,11 @@ function ReviewCard(props){
 
             <div className="review-text">
                 <h2>
-                    Incrível!
+                    {props.commentFirstLine}
                     <br />
-                    Todo mês uma nova surpresa.
+                    {props.commentSecondLine}
                     <br />
-                    FIco esperando minha ambox com muita ansiedade.
+                    {props.commentThirdLine}
                 </h2>
             </div>
 

@@ -19,6 +19,18 @@
     }
 }
 
+@media(min-width: 1600px){
+    :root{
+        font-size: 120%;
+    }
+}
+
+@media(min-width: 1920px){
+    :root{
+        font-size: 135%;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -81,6 +81,15 @@
     opacity: 1;
 }
 
+.user-login-btn:hover span{
+    color: white;
+    transition: 0.4s;
+}
+
+.user-login-btn span{
+    color: var(--color-dark-blue);
+}
+
 .user-login-btn-div a{
     font-weight: 500;
 }
@@ -91,11 +100,6 @@
 
 .user-login-btn-div button:hover{
     background-color: var(--color-dark-blue);
-    transition: 0.4s;
-}
-
-.user-login-btn-div button:hover a{
-    color: white;
     transition: 0.4s;
 }
 

@@ -54,7 +54,7 @@ function App() {
             <Login />
           </Route>
 
-          <Route exact path='/logged/my-account'>
+          <Route exact path='/logged'>
             <Logged />
           </Route>
         </Switch>

@@ -2,9 +2,9 @@ import React from 'react'
 
 import './styles.css'
 
-import { Link } from 'react-router-dom'
 import { Navbar } from 'react-bootstrap'
 import AmboxLogo from '../../components/Logo/index.jsx'
+import LeaveModal from '../../components/LeaveModal/index.jsx'
 
 export default function Logged() {
     return (
@@ -16,14 +16,7 @@ export default function Logged() {
                 </Navbar.Brand>
 
                 <div class="logged-nav-links justify-content-end">
-                    <div className="my-acc">
-                        <Link to='/logged/my-account' className="logged-navbar-link">
-                            Minha Conta
-                        </Link>
-                    </div>
-                    <Link to='/logged/plans' className="logged-navbar-link">
-                        Planos
-                    </Link>
+                    <LeaveModal />
                 </div>
             </Navbar>
             <div className="logged-div">

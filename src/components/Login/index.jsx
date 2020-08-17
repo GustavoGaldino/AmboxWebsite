@@ -22,11 +22,13 @@ export default function Login(){
                 </div>
 
                 <div className="user-login-btn-div">
-                    <button>
-                        <Link to="/logged/my-account">
-                            Entrar
-                        </Link>
-                    </button>
+                    <Link to="/logged">
+                        <button className="user-login-btn">
+                            <span>
+                                Entrar
+                            </span>
+                        </button>
+                    </Link>
                 </div>
 
                 <div className="register-div">

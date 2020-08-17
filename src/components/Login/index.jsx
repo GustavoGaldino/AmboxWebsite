@@ -11,7 +11,7 @@ export default function Login(){
                 <div className="welcome">
                     <h1>Bem-vindo</h1>
                 </div>
-                <div className="horizontal-line" />
+                <div className="horizontal-line-login" />
 
                 <div class="input">
                     <input type="text" placeholder="Email" class="input-field"/>
@@ -33,7 +33,7 @@ export default function Login(){
 
                 <div className="register-div">
                     Ainda não é um membro?
-                    <a href="" className="register">Cadastre-se</a>
+                    <Link to="/register/first-view" className="register">Cadastre-se</Link>
                 </div>
             </div>
         </div>

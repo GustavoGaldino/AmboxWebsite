@@ -11,6 +11,9 @@ import Reviews from './components/Reviews/index.jsx'
 import Plans from './components/Plans/index.jsx'
 import Login from './components/Login/index.jsx'
 import Logged from './components/Logged/index.jsx'
+import FirstView from './components/Register/FirstView/index.jsx'
+import SecondView from './components/Register/SecondView/index.jsx'
+import ThirdView from './components/Register/ThirdView/index.jsx'
 
 import './assets/styles/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -57,6 +60,19 @@ function App() {
           <Route exact path='/logged'>
             <Logged />
           </Route>
+
+          <Route exact path='/register/first-view'>
+            <FirstView />
+          </Route>
+
+          <Route exact path='/register/second-view'>
+            <SecondView />
+          </Route>
+
+          <Route exact path='/register/third-view'>
+            <ThirdView />
+          </Route>
+
         </Switch>
       </div>
     </Router>

@@ -2,6 +2,7 @@ import React from 'react';
 
 import NavbarLinks from './components/NavbarLinks/index.jsx'
 import Navbar from 'react-bootstrap/Navbar'
+import {Link} from 'react-router-dom'
 
 import AmboxLogo from './components/Logo/index.jsx'
 import Landing from './components/Landing/index.jsx'
@@ -9,6 +10,7 @@ import AboutUs from './components/About/index.jsx'
 import Reviews from './components/Reviews/index.jsx'
 import Plans from './components/Plans/index.jsx'
 import Login from './components/Login/index.jsx'
+import Logged from './components/Logged/index.jsx'
 
 import './assets/styles/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,17 +26,16 @@ function App() {
     <Router>
       <div className="App">
 
-        <Navbar bg="light" fixed="top">
-
-          <Navbar.Brand>
-            <AmboxLogo />
-          </Navbar.Brand>
-
-          <NavbarLinks onHomePage />
-        </Navbar>
-
         <Switch>
           <Route exact path='/'>
+            <Navbar bg="light" fixed="top">
+
+              <Navbar.Brand>
+                <AmboxLogo />
+              </Navbar.Brand>
+
+              <NavbarLinks onHomePage />
+            </Navbar>
             <Landing />
             <AboutUs />
             <Plans />
@@ -42,7 +43,19 @@ function App() {
           </Route>
 
           <Route exact path='/login'>
+            <Navbar bg="light" fixed="top">
+
+              <Navbar.Brand>
+                <AmboxLogo />
+              </Navbar.Brand>
+
+              <NavbarLinks onHomePage />
+            </Navbar>
             <Login />
+          </Route>
+
+          <Route exact path='/logged/my-account'>
+            <Logged />
           </Route>
         </Switch>
       </div>

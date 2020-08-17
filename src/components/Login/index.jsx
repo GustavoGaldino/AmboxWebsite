@@ -1,6 +1,8 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import './styles.css'
+
 
 export default function Login(){
     return(
@@ -21,9 +23,9 @@ export default function Login(){
 
                 <div className="user-login-btn-div">
                     <button>
-                        <a href="">
+                        <Link to="/logged/my-account">
                             Entrar
-                        </a>
+                        </Link>
                     </button>
                 </div>
 

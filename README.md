@@ -1,3 +1,22 @@
+
+## Informações sobre o repositório
+
+Este repositório foi criado para apresentar a solução da equipe ao hackathon da Ambev, o Ambev Innovation Game 2.
+
+A equipe consta de 4 participantes, estes são:
+  - Gustavo Galdino, Desenvolvimento.
+  - Igor Lins, Marketing.
+  - Letícia Prado, Design.
+  - Murilo Ribeiro, Finanças.
+
+A trilha do challenge escolhida pela equipe foi a de Canais de Venda.
+
+O código do repositório trata-se de um site para apresentação da solução: a AmBox.
+
+Para visualizar o site, basta clicar [aqui](https://galdinocgm.github.io/AmboxWebsite/)
+
+Mais informações sobre scripts disponivéis e sobre as tecnologias utilizadas no projeto podem ser encontradas abaixo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

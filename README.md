@@ -13,7 +13,7 @@ A trilha do challenge escolhida pela equipe foi a de Canais de Venda.
 
 O código do repositório trata-se de um site para apresentação da solução: a AmBox.
 
-Para visualizar o site, basta clicar [aqui](https://galdinocgm.github.io/AmboxWebsite/)
+Para visualizar o site, basta clicar [aqui](https://gustavogaldino.github.io/AmboxWebsite/)
 
 Mais informações sobre scripts disponivéis e sobre as tecnologias utilizadas no projeto podem ser encontradas abaixo.
 
